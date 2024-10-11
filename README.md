@@ -5,7 +5,7 @@
 **negrita uwu**
 _cursiva_
 
-
+>[!NOTE]
 > este es el texto 
 
 ```
