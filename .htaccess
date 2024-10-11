@@ -1,0 +1,16 @@
+RewriteEngine On
+
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f  
+RewriteRule ^(.*)$ $1.php [L]
+
+
+Options All -Indexes
+
+
+ErrorDocument 400 /rutas/unauthorized.php
+ErrorDocument 401 /rutas/unauthorized.php
+ErrorDocument 403 /rutas/unauthorized.php
+ErrorDocument 404 /rutas/404.php
+
