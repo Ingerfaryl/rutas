@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="<?= SERVERURL ?>plugins/fontawesome-free/css/all.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="<?= SERVERURL ?>dist/css/adminlte.min.css">
+  <link rel="stylesheet" href="<?= SERVERURL ?>dist/css/estilos.css">
 </head>
 
 <body class="hold-transition sidebar-mini">
@@ -113,7 +114,7 @@
             <img src="<?= SERVERURL ?>dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
           </div>
           <div class="info">
-            <a href="#" class="d-block">tu kchero GAAAAAAA</a>
+            <a href="#" class="d-block">Alex</a>
           </div>
         </div>
 
@@ -123,9 +124,27 @@
             <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
             <li class="nav-item">
-              <a href="#" class="nav-link">
+              <a href="<?= SERVERURL ?>views/clientes/listar-cliente" class="nav-link">
                 <i class="nav-icon fas fa-th"></i>
-                <p>Simple Link</p>
+                <p>Clientes</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="<?= SERVERURL ?>views/productos/listar-productos" class="nav-link">
+                <i class="nav-icon fas fa-th"></i>
+                <p>Productos</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="<?= SERVERURL ?>views/usuarios/listar-usuarios"  class="nav-link">
+                <i class="nav-icon fas fa-th"></i>
+                <p>Usuarios</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="<?= SERVERURL ?>views/ventas/listar-ventas"  class="nav-link">
+                <i class="nav-icon fas fa-th"></i>
+                <p>Ventas</p>
               </a>
             </li>
           </ul>

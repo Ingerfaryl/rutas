@@ -6,7 +6,7 @@ require_once '../../app/config/App.php';
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
       <!-- Content Header (Page header) -->
-      <?php echo renderContentHeader("usuarios","Inicio")?>
+      <?php echo renderContentHeader("ventas","Inicio")?>
       <!-- /.content-header -->
 
       <!-- Main content -->
